@@ -8,7 +8,7 @@ import { CheckCustomHook } from './components/CheckCustomHook'
 
 function App() {
 
-  console.log('2' + '2' * '2' / 2) //2
+  console.log('2' + '2' * '2' / 2) //22
   /*
    🔑 Rule to Remember (VERY IMPORTANT)
      -- Operator	Behavior --
