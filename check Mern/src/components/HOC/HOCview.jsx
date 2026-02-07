@@ -9,7 +9,7 @@ const HomeListWithLayout = withLayout(Home)
 
 const HomeWithAuth = withAuth(Home)
 
-//start withRole called & here pass Home component as argument  (this component initially no send any props )
+//A. start withRole called & here pass Home component as argument  (this component initially no send any props )
 const HomeWithRole = withRole(Home)
 // HomeWithRole is component (due to withRole() return component ) we use futher
 
@@ -21,6 +21,7 @@ const HomeWithRole = withRole(Home)
   2. which const 'HomeWithRole' (after returning withRole(Home) this variable behave as component ) u want to re-use or increase their security and use
 
 */ 
+
 export function HOCview() {
     const style = {
         color: "red",
