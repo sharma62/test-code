@@ -4,7 +4,8 @@ import './App.css'
 // import { Memo } from './components/Memo'
 // import { Callback } from './components/Callback'
 // import { LayoutEffect } from './components/LayoutEffect'
-import { CheckCustomHook } from './components/CheckCustomHook'
+// import { CheckCustomHook } from './components/CheckCustomHook'
+import { HOCview } from './components/HOC/HOCview'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
       {/* <Memo/> */}
       {/* <Callback/> */}
       {/* <LayoutEffect/> */}
-      <CheckCustomHook />
+      {/* <CheckCustomHook /> */}
+      <HOCview/>
 
     </>
   )
